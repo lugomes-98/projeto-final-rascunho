@@ -1,0 +1,420 @@
+html {
+    font-family: 'Lobster', cursive;
+    font-family: 'Miltonian Tattoo', cursive;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body{
+    background: url(WhatsApp\ Image\ 2023-09-08\ at\ 10.02.55\ AM.jpeg) fixed no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+
+.estilo {
+    display: flex;
+    background-position: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12em;
+    margin-bottom: 10em;
+    padding: 0;
+}
+
+
+.header {
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.header_logo {
+    width: 6em;
+    height: auto;
+    padding: .5em;
+    border-radius: 5px;
+}
+
+#hamburguer {
+    color: rgb(161, 25, 189);
+    display: block;
+    text-align: center;
+    padding: 0.3em;
+    cursor: pointer;
+    font-size: 1.5em;
+    background-color:black;
+}
+
+.header_nav {
+    display: none;
+}
+
+.header_nav.show {
+    display: block;
+}
+
+
+ul {
+    margin: auto;
+}
+
+.header_nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-size: .75em;
+}
+
+
+.header_nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 0.3em;
+    font-size: .75em;
+}
+
+.header_nav a:hover {
+    background-color: rgb(161, 25, 189);
+    color:black;
+    font-style: oblique;
+}
+
+.tamanho{
+    width: 15em;
+    height: auto;
+    padding: .5em;
+    border-radius: 5px;
+}
+
+.texto-paragrafo{
+    text-transform: capitalize;
+    color: white;
+    display: block;
+    padding-bottom: 1em;
+}
+
+.artigo{
+    align-items: center;
+    width: 30em;
+}
+
+.artigos{
+    display: flex;
+    gap: .8em;
+    text-align: justify;
+}
+
+h2{
+    text-align: center;
+}
+
+
+.icon_img{
+    width: 6em;
+    height: auto;
+    padding: .5em;
+}
+
+#apresentacao-id, #inicio-id, #desafio-id, #conquistas-id, #aprendizados-id, #projetos-id, #depoimento-id, #contatos-id{
+    height: 100vh;
+    width: auto;
+    text-align: justify;
+}
+
+.btn {
+    width: 12em;
+    padding: .75em;
+    font-size: 1em;    
+    background-color:  rgb(211, 102, 233);
+    border-radius: 5px;
+    font-family: 'Lobster', cursive;
+    font-family: 'Miltonian Tattoo', cursive;
+    font-family: 'Press Start 2P', cursive;
+}
+.btn:hover {
+    background-color: rgb(53, 14, 207);
+    color: white;
+}
+.active{
+    background-color: rgb(106, 6, 126);
+}
+.blk1 {
+    text-align: center;
+    margin-top: 2em;  
+    width: 79em;
+    height: 25em;
+    border: 0.2em dashed rgb(179, 12, 212);
+    border-radius: 5px;
+}
+
+.blk2 {
+    text-align: center;
+    margin-top: 2em;  
+    width: 79em;
+    height: 25em;
+    border: 0.2em dashed rgb(179, 12, 212);
+    border-radius: 5px;
+}
+
+.blk3 {
+    text-align: center;
+    margin-top: 2em;  
+    width: 79em;
+    height: 25em;
+    border: 0.2em dashed rgb(179, 12, 212);
+    border-radius: 5px;
+}
+
+.blk4 {
+    text-align: center;
+    margin-top: 2em;  
+    width: 79em;
+    height: 25em;
+    border: 0.2em dashed rgb(179, 12, 212);
+    border-radius: 5px;
+}
+
+.blk5 {
+    text-align: center;
+    margin-top: 2em;  
+    width: 79em;
+    height: 25em;
+    border: 0.2em dashed rgb(179, 12, 212);
+    border-radius: 5px;
+}
+
+.blk6 {
+    text-align: center;
+    margin-top: 2em;  
+    width: 79em;
+    height: 25em;
+    border: 0.2em dashed rgb(179, 12, 212);
+    border-radius: 5px;
+}
+
+.blk7 {
+    text-align: center;
+    margin-top: 2em;  
+    width: 79em;
+    height: 25em;
+    border: 0.2em dashed rgb(179, 12, 212);
+    border-radius: 5px;
+}
+
+.blk8 {
+    text-align: center;
+    margin-top: 2em;  
+    width: 79em;
+    height: 25em;
+    border: 0.2em dashed rgb(179, 12, 212);
+    border-radius: 5px;
+}
+
+.blk9 {
+    text-align: justify;
+    margin-top: 2em;  
+    width: auto;
+    height: 79em;
+    border: 0.2em dashed rgb(179, 12, 212);
+    border-radius: 5px;
+}
+
+.hideblk{
+    display: none;
+}
+
+.titulo-topico{
+    text-align: center;
+}
+
+.saiba-mais{
+    text-decoration: none;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    padding: 1em;
+    margin: .5em .5em .5em .5em;
+    display: block;
+}
+
+.video-projetos{
+    display: flex;
+    width: 25em;
+    height: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: .5em;
+}
+
+
+.descricao-projeto{
+    text-align: justify;  
+    display: block;  
+}
+
+.botao{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    gap: .8em;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+}
+
+.icones {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+}
+
+.icones2 {
+    width: 2.5em;
+}
+
+.texto-footer {
+    font-size: .75em;
+    text-transform: uppercase;
+    margin: 0;
+    color: white;
+    padding-top: .5em;
+}
+
+
+@media screen and (min-width: 36em) {
+    /*576px maior que*/
+
+
+    #hamburguer {
+        display: none;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: linear-gradient(rgba(62, 3, 82, 0.5), transparent);
+        margin:auto;
+    }
+
+    .header_logo {
+        margin-left: 1em;
+        border-radius: 25%;
+    }
+
+    .header_nav {
+        display: block;
+    }
+
+    .header_nav ul {
+        margin-right: .8em;
+        font-size: .9em;
+        display: flex;
+    }
+
+    .header_nav li {
+        display: inline-block;
+    }
+
+    .header_nav a {
+        margin-top: .5em;
+        color: white;
+        
+    }
+
+    .header_nav a:hover {
+        color: rgb(161, 25, 189);
+        background-color: black;
+        font-style: italic;
+    }
+
+    .header {
+        text-align: center;
+        margin: auto;
+        background-color: black;
+    }
+
+    .icones {
+        flex-direction: row;
+        justify-content: center;
+        gap: 1.5em;
+    }
+
+    .estilo{
+        height: 50%;
+        padding: 0;
+        margin: 0;
+        }
+
+    .artigo{
+        width: 30em;
+    }
+
+    .botao{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .blk9 {
+        display: flex;
+        text-align: center;
+        margin-top: 2em;  
+        width: auto;
+        height: auto;
+        border: 0.2em dashed rgb(179, 12, 212);
+        border-radius: 5px;
+        background: linear-gradient(rgba(191, 59, 224, 0.5), transparent);
+    }
+
+    
+    .titulo-topico{
+        text-align: center;
+    }
+
+    .saiba-mais{
+        text-decoration: none;
+        background-color: blueviolet;
+        color: white;
+        border-radius: 5px;
+        padding: 1em;
+        margin: .5em .5em .5em .5em;
+        display: block;
+    }
+
+
+    .tamanho{
+        width: 15em;
+        height: auto;
+        padding: .5em;
+        border-radius: 15%;
+        text-align: center;
+        float:inline-start;
+    }
+
+    .video-projetos{
+        width: 40em;
+        height: auto;
+        align-items: center;
+    }
+
+    .topicos{
+        font-size: 1em;
+    }
+
+    #apresentacao-id, #inicio-id, #desafio-id, #conquistas-id, #aprendizados-id, #projetos-id, #depoimento-id, #contatos-id{
+        height: 100vh;
+        width: auto;
+        text-align: justify;
+    }
+
+}
