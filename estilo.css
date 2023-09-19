@@ -1,0 +1,385 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: url(WhatsApp\ Image\ 2023-09-08\ at\ 10.02.55\ AM.jpeg) fixed no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-family: 'Miltonian Tattoo', cursive;
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+.estilo {
+    display: flex;
+    background-position: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12em;
+    margin-bottom: 10em;
+    padding: 0;
+}
+
+
+.header {
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.header_logo {
+    width: 6em;
+    height: auto;
+    padding: .5em;
+    border-radius: 5px;
+}
+
+#hamburguer {
+    color: rgb(161, 25, 189);
+    display: block;
+    text-align: center;
+    padding: 0.3em;
+    cursor: pointer;
+    font-size: 1.5em;
+    background-color:black;
+}
+
+.header_nav {
+    display: none;
+}
+
+.header_nav.show {
+    display: block;
+}
+
+
+ul {
+    margin: auto;
+}
+
+.header_nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-size: .75em;
+}
+
+
+.header_nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 0.3em;
+    font-size: .75em;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-family: 'Miltonian Tattoo', cursive;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.header_nav a:hover {
+    background-color: rgb(161, 25, 189);
+    color:black;
+    font-style: oblique;
+}
+
+.tamanho{
+    width: 15em;
+    height: auto;
+    padding: .5em;
+    border-radius: 5px;
+}
+
+.texto-paragrafo{
+    text-transform: capitalize;
+    color: white;
+    display: block;
+    padding-bottom: 1em;
+}
+
+.artigo{
+    align-items: center;
+    width: 30em;
+}
+
+.artigos{
+    display: flex;
+    gap: .8em;
+    text-align: justify;
+}
+
+h2{
+    text-align: center;
+}
+
+
+.icon_img{
+    width: 6em;
+    height: auto;
+    padding: .5em;
+}
+
+#apresentacao-id, #inicio-id, #desafio-id, #conquistas-id, #aprendizados-id, #projetos-id, #depoimento-id, #contatos-id{
+    height: 100vh;
+    width: auto;
+    text-align: justify;
+}
+
+
+
+
+.titulo-topico{
+    text-align: center;
+}
+
+.saiba-mais{
+    text-decoration: none;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    padding: 1em;
+    margin: .5em .5em .5em .5em;
+    display: block;
+}
+
+
+.descricao-projeto{
+    text-align: justify;  
+    display: block;  
+}
+
+.botao{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    gap: .8em;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+}
+
+.icones {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+}
+
+.icones2 {
+    width: 2.5em;
+}
+
+.texto-footer {
+    font-size: .75em;
+    text-transform: uppercase;
+    margin: 0;
+    color: white;
+    padding-top: .5em;
+}
+
+
+@media screen and (min-width: 36em) {
+    /*576px maior que*/
+
+
+    #hamburguer {
+        display: none;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin:auto;
+    }
+
+    .header_logo {
+        margin-left: 1em;
+        border-radius: 25%;
+    }
+
+    .header_nav {
+        display: block;
+    }
+
+    .header_nav ul {
+        margin-right: .8em;
+        font-size: .8em;
+        display: flex;
+    }
+
+    .header_nav li {
+        display: inline-block;
+    }
+
+    .header_nav a {
+        margin-top: .5em;
+        color: white;
+        padding-right: .5em;
+        transition: all 0.25s ease-in-out;
+        
+    }
+
+    .header_nav a:hover {
+        color: rgb(161, 25, 189);
+        background-color: black;
+        bottom: .5em;
+        border-bottom: .3em solid
+    }
+
+    .header {
+        text-align: center;
+        margin: auto;
+        background-color: black;
+    }
+
+    .icones {
+        flex-direction: row;
+        justify-content: center;
+        gap: 1.5em;
+    }
+
+    .estilo{
+        height: 50%;
+        padding: 0;
+        margin: 0;
+        }
+
+    .artigo{
+        width: 30em;
+    }
+
+    .botao{
+        display: flex;
+        flex-direction: row;
+        width: 70em;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin: auto;
+    }
+
+    
+    
+    .titulo-topico{
+        text-align: center;
+    }
+
+    .saiba-mais{
+        text-decoration: none;
+        background-color: blueviolet;
+        color: white;
+        border-radius: 5px;
+        padding: 1em;
+        margin: .5em .5em .5em .5em;
+        display: block;
+    }
+
+
+    .tamanho{
+        width: 15em;
+        height: auto;
+        padding: .5em;
+        border-radius: 15%;
+        text-align: center;
+        float:inline-start;
+    }
+
+    
+    .topicos{
+        font-size: 1em;
+    }
+
+    #apresentacao-id, #inicio-id, #desafio-id, #conquistas-id, #aprendizados-id, #projetos-id, #depoimento-id, #contatos-id{
+        height: 100vh;
+        width: auto;
+        text-align: justify;
+    }
+
+    .card-projetos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card{
+        display: flex;
+        /*background: linear-gradient(transparent, rgb(65, 8, 65));*/
+        background-color: rgb(65, 8, 65, .5);
+        border: solid .1em black;
+        border-radius: 5px;
+        width: 60em;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 2em;
+        margin: auto;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        
+    }
+
+
+    .texto-card{
+        padding: .5em;
+        text-align: justify;
+    }
+
+    .leia-mais{
+        padding: .75em;
+        font-size: 1em;
+        text-transform: uppercase;
+        border-radius: 5px;
+        background-color:  rgb(211, 102, 233);
+        cursor: pointer;
+    }
+
+    .leia-mais:hover{
+        background-color: rgb(53, 14, 207);
+        color: white;
+    }
+
+    .repositorio{
+        flex-wrap: wrap;
+        padding: .5em;
+        font-size: 1em;
+        border: solid .1em black;
+        background-color: rgb(76, 5, 143);
+        color: white;
+        margin-bottom: .5em;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .botoes{
+        display: flex;
+        margin-left: .2em;
+        background: transparent purple;
+        border-radius: 5px;
+    }
+
+    button{
+        background-color: rgb(143, 5, 132);
+        color: white;
+    }
+
+    .clicar-botoes{
+        text-decoration: none;
+        font-size: 1.2em;
+        padding: 1em;
+        border-radius: 3px;
+        color: white;
+    }
+
+    
+}
