@@ -1,11 +1,13 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
-}
+    scroll-behavior: smooth;
+    }
 
 body{
     background: url(WhatsApp\ Image\ 2023-09-08\ at\ 10.02.55\ AM.jpeg) fixed no-repeat;
     background-size: cover;
     color: white;
+    margin: 0;
 }
 
 h1{
@@ -15,6 +17,9 @@ h1{
     font-family: 'Press Start 2P', cursive;
 }
 
+img{
+    max-width: 100%;
+}
 
 .estilo {
     display: flex;
@@ -31,6 +36,13 @@ h1{
     align-items: center;
     text-align: center;
     margin: auto;
+    width: 100%;
+    background-color: black;
+}
+
+
+.texto-header{
+    justify-content: center;
 }
 
 .header_logo {
@@ -41,13 +53,13 @@ h1{
 }
 
 #hamburguer {
-    color: rgb(161, 25, 189);
     display: block;
     text-align: center;
     padding: 0.3em;
     cursor: pointer;
     font-size: 1.5em;
-    background-color:black;
+    color: rgb(233, 37, 223);
+    background-color: black;
 }
 
 .header_nav {
@@ -71,7 +83,6 @@ ul {
     font-size: .75em;
 }
 
-
 .header_nav a {
     color: white;
     text-decoration: none;
@@ -79,46 +90,223 @@ ul {
     padding: 0.3em;
     font-size: .75em;
     text-align: center;
+    transition: .5s ease;
     font-family: 'Lobster', cursive;
     font-family: 'Miltonian Tattoo', cursive;
     font-family: 'Press Start 2P', cursive;
 }
 
 .header_nav a:hover {
-    background-color: rgb(161, 25, 189);
-    color:black;
+    color: rgb(233, 37, 223);
+    background-color: black;
     font-style: oblique;
+}
+
+.conteudo-apresentacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin-left: .3em;
+    margin-right: .3em;
+}
+
+.inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin-left: .3em;
+    margin-right: .3em;
+}
+
+.desafio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin-left: .3em;
+    margin-right: .3em;
+}
+
+.conquistas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin-left: .3em;
+    margin-right: .3em;
+}
+
+.aprendizados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+    text-align: justify;
+    margin-left: .3em;
+    margin-right: .3em;
+}
+
+.depoimento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin-left: .3em;
+    margin-right: .3em;
+}
+
+.contatos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin-left: .3em;
+    margin-right: .3em;
+}
+
+.botao-subir{
+    display: flex;
+    align-items: end;
+    float: right;
+    padding-bottom: 1em;
 }
 
 .tamanho{
     width: 15em;
     height: auto;
-    padding: .5em;
-    border-radius: 5px;
+    padding: 1em;
+    border-radius: 30%;
 }
 
 .texto-paragrafo{
-    text-transform: capitalize;
     color: white;
     display: block;
     padding-bottom: 1em;
-}
-
-.artigo{
-    align-items: center;
-    width: 30em;
-}
-
-.artigos{
-    display: flex;
-    gap: .8em;
     text-align: justify;
+}
+
+.card-projetos{
+    display: flex;
+    flex-direction: column;
+}
+
+
+h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.card{
+    /*background: linear-gradient(transparent, rgb(65, 8, 65));*/
+    background-color: rgba(133, 9, 133, 0.5);
+    border: dashed .2em black;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2em;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: .3em;
+    margin-right: .3em;
+}
+
+.texto-card{
+    padding: .5em;
+    text-align: justify;
+}
+
+.repositorio{
+    padding: .4em;
+    font-size: 1em;
+    border: solid .1em black;
+    background-color: rgb(174, 41, 214);
+    color: white;
+    margin-bottom: .5em;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 10em;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+    align-items: center;
+}
+
+.repositorio:hover{
+    background-color: rgb(53, 14, 207);
+    color: white;
+}
+
+.tamanho-projetos{
+    width: 20em;
+    height: auto;
+    display: block;
+    align-items: center;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: column;
+    margin-left: .2em;
+    background: transparent purple;
+    border-radius: 5px;
+    font-size: .65em;
+}
+
+button{
+    background-color: rgb(143, 5, 132);
+    color: white;
+    padding: .4em;
+    margin-right: .5em;
+    border: solid dashed white;
+    border-radius: 5px ;
+    text-align: justify;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-family: 'Miltonian Tattoo', cursive;
+    font-family: 'Press Start 2P', cursive;
+}
+
+button:hover{
+    background-color: rgb(53, 14, 207);
+    color: white;
+}
+
+.clicar-botoes{
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 1em;
+    border-radius: 3px;
+    color: white;
+}
+
+.clicar-botoes a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.botao-subir{
+    display: flex;
+}
+
+.subir{
+    text-decoration: none;
+    color: white;
+    align-items: end;
 }
 
 h2{
     text-align: center;
 }
-
 
 .icon_img{
     width: 6em;
@@ -126,29 +314,9 @@ h2{
     padding: .5em;
 }
 
-#apresentacao-id, #inicio-id, #desafio-id, #conquistas-id, #aprendizados-id, #projetos-id, #depoimento-id, #contatos-id{
-    height: 100vh;
-    width: auto;
-    text-align: justify;
-}
-
-
-
-
 .titulo-topico{
     text-align: center;
 }
-
-.saiba-mais{
-    text-decoration: none;
-    background-color: blueviolet;
-    color: white;
-    border-radius: 5px;
-    padding: 1em;
-    margin: .5em .5em .5em .5em;
-    display: block;
-}
-
 
 .descricao-projeto{
     text-align: justify;  
@@ -156,7 +324,6 @@ h2{
 }
 
 .botao{
-    display: flex;
     flex-direction: column;
     border-radius: 5px;
     gap: .8em;
@@ -165,16 +332,23 @@ h2{
     margin: auto;
 }
 
+.clicar-botoes{
+    flex-wrap: wrap;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 1em;
+    border-radius: 3px;
+    color: white;
+}
+
 footer {
     text-align: center;
     padding: 1em;
 }
-
 .icones {
     display: flex;
     flex-direction: column;
     gap: 1em;
-
 }
 
 .icones2 {
@@ -193,6 +367,14 @@ footer {
 @media screen and (min-width: 36em) {
     /*576px maior que*/
 
+    h1{
+        text-align: center;
+        font-family: 'Lobster', cursive;
+        font-family: 'Miltonian Tattoo', cursive;
+        font-family: 'Press Start 2P', cursive;
+        font-size:2em;
+        margin-top: 1em;
+    }
 
     #hamburguer {
         display: none;
@@ -201,23 +383,34 @@ footer {
     .header {
         display: flex;
         justify-content: space-between;
-        align-items: center;
-        margin:auto;
+        align-items: start;
+        text-align: center;
+        margin: auto;
+        transition: .5s ease;
+        /*position: fixed;
+        top: 0;
+        background: linear-gradient(transparent, rgb(8, 8, 8));
+        padding-bottom: 2em;*/
     }
+
 
     .header_logo {
         margin-left: 1em;
-        border-radius: 25%;
     }
 
     .header_nav {
         display: block;
+        margin: 0;
     }
 
     .header_nav ul {
-        margin-right: .8em;
+        margin-top: .5em;
+        margin-right: .5em;
         font-size: .8em;
-        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: end;
+        justify-content: end;
     }
 
     .header_nav li {
@@ -229,20 +422,14 @@ footer {
         color: white;
         padding-right: .5em;
         transition: all 0.25s ease-in-out;
-        
+        display: flex;
     }
 
     .header_nav a:hover {
-        color: rgb(161, 25, 189);
+        color: rgb(233, 37, 223);
         background-color: black;
         bottom: .5em;
         border-bottom: .3em solid
-    }
-
-    .header {
-        text-align: center;
-        margin: auto;
-        background-color: black;
     }
 
     .icones {
@@ -261,6 +448,105 @@ footer {
         width: 30em;
     }
 
+    .conteudo-apresentacao{
+        display: flex;
+        flex-direction: row;
+        float: inline-end;
+        justify-content: center;
+        text-align:right;
+        margin-left: .75em;
+        margin-right: .75em;
+        border-radius: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .inicio{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-left: .75em;
+        margin-right: .75em;
+        margin-right: .75em;
+        border-radius: 5px;
+        text-align: left;
+    }
+
+    #imagem-inicio{
+        display: block;
+        margin-left: 1em;
+    }
+
+    .desafio{
+        display: flex;
+        flex-direction: row;
+        float: inline-end;
+        justify-content: center;
+        text-align: end;
+        margin-left: .75em;
+        margin-right: .75em;
+    }
+
+    #imagem-desafios{
+        display: block;
+        margin-right: 1em;
+    }
+
+    .conquistas{
+        display: flex;
+        flex-direction: row-reverse;
+        float: inline-start;
+        justify-content: center;
+        text-align: justify;
+        margin-left: .5em;
+        margin-right: .75em;
+        margin-right: .75em;
+    }
+
+    #imagem-conquistas{
+        display: block;
+        margin-left: 1em;
+    }
+    
+    .aprendizados{
+        display: flex;
+        flex-direction: row;
+        float: inline-end;
+        justify-content: center;
+        text-align: end;
+        margin-left: .75em;
+        margin-right: .75em;
+    }
+
+    #imagem-aprendizado{
+        display: block;
+        margin-right: 1em;
+    }
+    
+    .depoimento{
+        display: flex;
+        flex-direction: row-reverse;
+        float: inline-end;
+        justify-content: center;
+        text-align: end;
+        margin-left: .75em;
+        margin-right: .75em;
+    }
+
+    #imagem-depoimento{
+        display: block;
+        padding-left: 1em;
+    }
+    
+    .contatos{
+        display: flex;
+        flex-direction: row;
+        float: inline-end;
+        justify-content: center;
+        text-align: end;
+        margin-left: .5em;
+        margin-right: .5em;
+    }
+
     .botao{
         display: flex;
         flex-direction: row;
@@ -269,117 +555,167 @@ footer {
         justify-content: space-around;
         align-items: center;
         margin: auto;
-    }
-
-    
+        }
     
     .titulo-topico{
         text-align: center;
     }
 
-    .saiba-mais{
-        text-decoration: none;
-        background-color: blueviolet;
-        color: white;
-        border-radius: 5px;
-        padding: 1em;
-        margin: .5em .5em .5em .5em;
-        display: block;
-    }
-
-
-    .tamanho{
+    .tamanho-projetos{
         width: 15em;
         height: auto;
         padding: .5em;
-        border-radius: 15%;
         text-align: center;
-        float:inline-start;
+        float:center;
     }
 
-    
+    .texto-paragrafo{
+        font-size: 1.5em;
+        text-align: start;
+    }
+
     .topicos{
         font-size: 1em;
     }
 
-    #apresentacao-id, #inicio-id, #desafio-id, #conquistas-id, #aprendizados-id, #projetos-id, #depoimento-id, #contatos-id{
-        height: 100vh;
-        width: auto;
-        text-align: justify;
-    }
-
     .card-projetos{
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    h3{
+        text-align: center;
+        text-transform: uppercase;
     }
 
     .card{
-        display: flex;
         /*background: linear-gradient(transparent, rgb(65, 8, 65));*/
-        background-color: rgb(65, 8, 65, .5);
-        border: solid .1em black;
+        background-color: rgba(133, 9, 133, 0.5);
+        border: dashed .2em black;
         border-radius: 5px;
-        width: 60em;
         justify-content: center;
         align-items: center;
         padding-bottom: 2em;
         margin: auto;
         margin-top: 2em;
         margin-bottom: 2em;
+        margin-left: .75em;
+        margin-right: .75em;
         
     }
-
 
     .texto-card{
         padding: .5em;
         text-align: justify;
     }
 
-    .leia-mais{
-        padding: .75em;
+    .repositorio{
+        padding: .5em;
         font-size: 1em;
-        text-transform: uppercase;
+        width: 3em;
+        border: solid .1em black;
+        background-color: rgb(174, 41, 214);
+        color: white;
+        margin-bottom: .5em;
+        text-decoration: none;
         border-radius: 5px;
-        background-color:  rgb(211, 102, 233);
-        cursor: pointer;
+        align-items: end;
+        justify-content: center;
+        width: 10em;
+        text-transform: uppercase;
     }
 
-    .leia-mais:hover{
+    .repositorio:hover{
         background-color: rgb(53, 14, 207);
         color: white;
     }
 
-    .repositorio{
-        flex-wrap: wrap;
-        padding: .5em;
-        font-size: 1em;
-        border: solid .1em black;
-        background-color: rgb(76, 5, 143);
-        color: white;
-        margin-bottom: .5em;
-        text-decoration: none;
-        text-align: center;
-    }
-
     .botoes{
         display: flex;
-        margin-left: .2em;
-        background: transparent purple;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: .5em;
         border-radius: 5px;
+        margin-left: .75em;
+        margin-right: .75em;
+        font-size: .75em;
+        font-family: 'Lobster', cursive;
+        font-family: 'Miltonian Tattoo', cursive;
+        font-family: 'Press Start 2P', cursive;
     }
 
     button{
         background-color: rgb(143, 5, 132);
         color: white;
+        padding: .4em;
+        border: solid dashed white;
+        border-radius: 5px ;
+        margin: auto;
+        text-align: center;
+        font-family: 'Lobster', cursive;
+        font-family: 'Miltonian Tattoo', cursive;
+        font-family: 'Press Start 2P', cursive;
     }
-
-    .clicar-botoes{
-        text-decoration: none;
-        font-size: 1.2em;
-        padding: 1em;
-        border-radius: 3px;
+    
+    button:hover{
+        background-color: rgb(53, 14, 207);
         color: white;
     }
 
+    .clicar-botoes{
+        background-color: rgb(143, 5, 132);
+        color: white;
+        padding: .4em;
+        border: solid dashed white;
+        border-radius: 5px;
+        text-align: center;
+        font-family: 'Lobster', cursive;
+        font-family: 'Miltonian Tattoo', cursive;
+        font-family: 'Press Start 2P', cursive;
+        text-decoration: none;
+        list-style-type: none;
+        font-size: 1.2em;
+        padding: 1em;
+        border-radius: 3px;
+        text-transform: uppercase;
+    }
+
+    .clicar-botoes a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .clicar-botoes:hover{
+        background-color: rgb(53, 14, 207);
+        color: white;
+    }
+    
+
+    .botao-subir{
+        display: flex;
+    }
+    
+    .subir{
+        text-decoration: none;
+        color: white;
+        align-items: end;
+    }
+
+    .video{
+        display: flex;
+    }
+
+    .video-depoimento{
+        flex-wrap: wrap;
+        align-items: center;
+        height:20em;
+        width: 35em;
+        border-radius: 5px; 
+        margin:auto;
+        margin-right: 1em;
+    }
     
 }
+
